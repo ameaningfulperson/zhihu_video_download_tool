@@ -67,6 +67,7 @@ if __name__ == "__main__":
     target_url = "https://www.zhihu.com/question/25528331/answer/76404492"
     target_url = "https://zhuanlan.zhihu.com/p/61015286"
     target_url = "https://www.zhihu.com/question/314984303/answer/637564381"
+    target_url = "https://www.zhihu.com/question/20273625/answer/531743073"
 
     # do
     wd = web_discovery(target_url)
@@ -91,6 +92,11 @@ if __name__ == "__main__":
         os.mkdir(download_directory + QuestionHeader_title + "/")
 
     # 下载图片
+
+    print("00000000000000000000000000000000000")
+    print("数据类型：【图片】")
+    print("00000000000000000000000000000000000")
+
     for pic in listPic:
 
         # variable
@@ -120,6 +126,11 @@ if __name__ == "__main__":
         print("")
 
     # 下载视频
+
+    print("00000000000000000000000000000000000")
+    print("数据类型：【视频】")
+    print("00000000000000000000000000000000000")
+
     for video in listVideo:
 
         # variable
